@@ -42,7 +42,7 @@ import { IncomeModalComponent } from './app/components/income-modal/income-modal
                   <span class="category">{{ expense.category }}</span>
                   <span class="date">{{ expense.date }}</span>
                 </div>
-                <div class="record-amount expense-amount">-${{ expense.amount }}</div>
+                <div class="record-amount expense-amount">-{{ expense.amount }}</div>
               </div>
             </div>
           </div>
@@ -56,7 +56,7 @@ import { IncomeModalComponent } from './app/components/income-modal/income-modal
                   <span class="category">{{ income.category }}</span>
                   <span class="date">{{ income.date }}</span>
                 </div>
-                <div class="record-amount income-amount">+${{ income.amount }}</div>
+                <div class="record-amount income-amount">+{{ income.amount }}</div>
               </div>
             </div>
           </div>
